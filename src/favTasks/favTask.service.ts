@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from "@nestjs/common";
-import { tasks } from "/home/numan/Desktop/project/src/tasks/task.model";
+import { tasks } from "../tasks/task.model";
 import { InjectModel } from "@nestjs/mongoose";
 import {Model} from 'mongoose';
 import * as moment from 'moment';
